@@ -8,6 +8,7 @@
 .attribution {
     font-size: 11px; 
     text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -90,4 +91,15 @@
     border: 1.5px solid white;
     color: white;
     transition: 0.2s ease-in-out;
+}
+@media screen and (min-width:375px) and (max-width:1440px){
+    .container {
+        display: block;
+    }
+    .preview-1 {
+        border-radius: 6px 6px 0 0;
+    }
+    .preview-3 {
+        border-radius: 0 0 6px 6px;
+    }
 }
