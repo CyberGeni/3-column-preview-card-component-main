@@ -36,10 +36,11 @@
     border-radius: 0 6px 6px 0 ;
 }
 .preview .title {
-    color: hsla(0, 0%, 100%, 0.75);
+    color: white;
     text-transform: uppercase;
-    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
+    font-size: 30px;
     padding-top: 30px;
     display: flex;
 }
@@ -84,7 +85,7 @@
     display: flex;
     width: 150px;
     justify-content: center;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 .link:active, .link:hover {
     background-color: transparent;
@@ -92,7 +93,7 @@
     color: white;
     transition: 0.2s ease-in-out;
 }
-@media screen and (max-width:375px){
+@media screen and (max-width: 375px) {
     .container {
         display: block;
     }
