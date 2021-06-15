@@ -93,7 +93,7 @@
     color: white;
     transition: 0.2s ease-in-out;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
     .container {
         display: block;
     }
@@ -102,5 +102,6 @@
     }
     .preview-3 {
         border-radius: 0 0 6px 6px;
+        
     }
-}
+  }
