@@ -12,10 +12,6 @@ main {
     margin: 2em auto;
 }
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: auto;
     padding: 2em;
 }
 section:nth-child(1) {
@@ -53,22 +49,18 @@ button {
     font-family: 'Lexend Deca';
     background-color: white;
     border-radius: 24px;
-    width: fit-content;
-    padding: 0.7em 1em;
+    padding: 0.5em 1em;
     text-decoration: none;
     font-size: small;
     margin: 1em 0;
     border: none;
 }
+
 @media screen and (min-width: 720px) {
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
     main {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-rows: repeat(3, minmax(0, 1fr));
         max-width: 960px;
     }
     section:nth-child(1) {
